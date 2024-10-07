@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CATTIES</title>
+    <link rel="stylesheet" href="Sherry.css"> 
+</head>
+<body>
+    <header>
+        <h1 id="header">CATTIES</h1>
+        <div class="icon-container">
+            <img src="cat.png" alt="Icon" class="icon">
+        </div>
+        <div class="topnav">
+            <a class="active" href="#home">Home</a>
+            <a href="Category.html">Category</a>
+            <a href="Picture.html">Pictures</a>
+            <a href="Video.html">Video</a>
+            <div class="search-container">
+                <form action="/search_results.php" method="GET">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit">Submit</button>
+                  </form>
+            </div>
+          </div>
+      
+<div class="slideshow-container">
+
+    <div class="slideshow-container">
+        <input type="radio" name="slider" id="slide1" checked>
+        <label for="slide1">
+            <div class="overlay">
+                <div class="text">For All Cat Lovers</div>
+            </div>
+            <img class="mySlides" src="img1.jpg" alt="Image 1">
+        </label>
+    
+        <input type="radio" name="slider" id="slide2">
+        <label for="slide2">
+            <img class="mySlides" src="img2.jpg" alt="Image 2">
+        </label>
+    
+        <input type="radio" name="slider" id="slide3">
+        <label for="slide3">
+            <img class="mySlides" src="img3.jpg" alt="Image 3">
+        </label>
+    </div>
+    
+    <div class="dots">
+        <span onclick="document.getElementById('slide1').checked = true"></span>
+        <span onclick="document.getElementById('slide2').checked = true"></span>
+        <span onclick="document.getElementById('slide3').checked = true"></span>
+    </div>
+    </header>
+
+    <section>
+        <p class="p1">
+            Recommand Types
+        </p>
+    </section>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="as.jpg">
+            <img src="as.jpg" alt="Cinque Terre">
+          </a>
+          <div class="desc">American Shorthair</div>
+        </div>
+      </div>
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="bs.jpg">
+            <img src="bs.jpg" alt="Forest">
+          </a>
+          <div class="desc">British Shorthair</div>
+        </div>
+      </div>
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="Ragdoll.jpg">
+            <img src="Ragdoll.jpg" alt="Northern Lights">
+          </a>
+          <div class="desc">Ragdoll</div>
+        </div>
+      </div>
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="Norwegian Forest Cat.jpg">
+            <img src="Norwegian Forest Cat.jpg" alt="Mountains">
+          </a>
+          <div class="desc">Norwegian Forest Cat</div>
+        </div>
+      </div>
+      
+      <div class="clearfix"></div>
+
+    <main>
+        <section>
+            <h2 class="h2">Here is Where Your Belong To</h2>
+            <p class="p1">Learn all the cat types here.</p>
+            <p>Resize the browser window to see the responsive effect.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 CATTIES. All rights reserved.</p>
+    </footer>
+</body>
+</html>
